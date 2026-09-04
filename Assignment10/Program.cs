@@ -210,7 +210,14 @@ namespace Assignment10
             #region Question 18 
 
             //Q18: How do static members work in generic types?
+            //Static members in a generic type are shared between all instances of the same constructed generic type. However, different type arguments have separate static members.
 
+            #endregion
+
+            #region Question 19
+
+            //Q19: How can you inherit from a generic class?
+            //by specifying the type argument or by keeping the derived class generic.
 
             #endregion
 
