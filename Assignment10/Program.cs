@@ -182,7 +182,13 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 15
 
+            //Q15: What is covariance? Explain the 'out' keyword.
+            //Covariance allows us to use a more specific type where a more general type is expected
+            //out before T means that The generic type T is used as an output type.
+
+            #endregion
 
 
         }
