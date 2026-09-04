@@ -118,6 +118,16 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 9
+
+            //Q9: What is the 'new()' constraint? Write an example.
+            //The new() constraint means that the generic type T must have a public parameterless constructor (a constructor with no parameters).
+            //Factory< Product > factory = new Factory<Product>();
+            //Product p = factory.Create();
+            //Console.WriteLine(p.Id);
+
+            #endregion
+
         }
     }
 }
