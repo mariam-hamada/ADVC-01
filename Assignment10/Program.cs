@@ -1,10 +1,17 @@
 ﻿using System.Runtime.Intrinsics.X86;
+using System.Security.Cryptography.X509Certificates;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment10
 {
     internal class Program
     {
+        static void swap<T>(ref T num1 , ref T num2)
+        {
+            T temp = num1;
+            num1 = num2;
+            num2 = temp;
+        }
         static void Main(string[] args)
         {
 
@@ -38,6 +45,18 @@ namespace Assignment10
 
             //Pair<int, string> pair = new Pair<int, string>(10, "Mariam");
             //Console.WriteLine($"My name is {pair.Second} and my age is {pair.First}");
+            #endregion
+
+            #region Question 4
+
+            //Q4: What is a generic method? Write Swap<T> method.
+            //A generic method is a method that can work with different data types. The type is specified when the method is called.
+
+            int a = 10, b = 20;
+            Console.WriteLine($"Number A before swapping is {a} and B is {b}");
+            swap<int>(ref a , ref b);
+            Console.WriteLine($"Number A after swapping is {a} and B is {b}");
+
             #endregion
 
         }
