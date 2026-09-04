@@ -128,6 +128,20 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 10
+
+            //Q10: What is the interface constraint? Write an example.
+            //The interface constraint means that the generic type T must implement a specific interface.
+
+            //Printer<Document> printer1 = new Printer<Document>();
+            //printer1.print(new Document());
+            //Printer<Report> printer2 = new Printer<Report>();
+            //printer2.print(new Report());
+
+
+            #endregion
+
+
         }
     }
 }
