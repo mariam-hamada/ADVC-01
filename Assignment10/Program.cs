@@ -164,6 +164,14 @@ namespace Assignment10
             //Order order = repository.Create();
             //order.audit();
             #endregion
+
+            #region Question 13
+
+            //Q13: What does the 'default' keyword do in generics?
+            //The default keyword returns the default value for a generic type T.
+
+            #endregion
+
         }
     }
 }
