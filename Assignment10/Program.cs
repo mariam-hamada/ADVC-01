@@ -141,7 +141,17 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 11
 
+            //Q11: What is the base class constraint? Write an example.
+            //The base class constraint means that the generic type T must inherit from a specific class.
+
+            //AnimalContainer<Dog> dogs = new AnimalContainer<Dog>();
+            //dogs.Add(new Dog("dubby"));
+            //dogs.Add(new Dog("Max"));
+            //dogs.print();
+
+            #endregion
         }
     }
 }
