@@ -88,6 +88,13 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 6
+
+            //Q6: What is a generic interface? Write IRepository<T>.
+            //A generic interface is an interface that can work with different data types. The type is specified when the interface is used.
+
+            #endregion
+
         }
     }
 }
