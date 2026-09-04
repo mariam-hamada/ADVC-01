@@ -1,4 +1,7 @@
-﻿namespace Assignment10
+﻿using System.Runtime.Intrinsics.X86;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment10
 {
     internal class Program
     {
@@ -26,6 +29,15 @@
             //Console.WriteLine(numbers.Get(3));
 
 
+            #endregion
+
+            #region Question 3
+
+            //Q3:What are multiple type parameters? Write Pair<TKey,TValue >.
+            //Multiple type parameters mean that a generic class can use more than one data type.Each type parameter can represent a different type.
+
+            //Pair<int, string> pair = new Pair<int, string>(10, "Mariam");
+            //Console.WriteLine($"My name is {pair.Second} and my age is {pair.First}");
             #endregion
 
         }
