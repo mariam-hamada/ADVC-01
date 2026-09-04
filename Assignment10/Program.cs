@@ -108,6 +108,16 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 8
+
+            //Q8: What is the 'class' constraint? Write an example.
+            //The class constraint means that the generic type must be a reference type, such as string or a custom class.
+
+            //Console.WriteLine(new ClassConstraint<string>("mariam").Value);
+            //Console.WriteLine(new ClassConstraint<Class1>(new Class1("Mariam")).Value.Name);
+
+            #endregion
+
         }
     }
 }
