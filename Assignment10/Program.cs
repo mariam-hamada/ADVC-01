@@ -6,12 +6,31 @@ namespace Assignment10
 {
     internal class Program
     {
-        static void swap<T>(ref T num1 , ref T num2)
-        {
-            T temp = num1;
-            num1 = num2;
-            num2 = temp;
-        }
+        #region Question 4
+        //static void swap<T>(ref T num1 , ref T num2)
+        //{
+        //    T temp = num1;
+        //    num1 = num2;
+        //    num2 = temp;
+        //} 
+        #endregion
+
+        #region Question 5
+
+        //static T FindMax<T>(T[] items) where T: IComparable<T> 
+        //{
+        //    T max = items[0];
+        //    foreach (T item in items)
+        //    {
+        //        if (item.CompareTo(max) > 0)
+        //        {
+        //            max = item;
+        //        }
+        //    }
+        //    return max;
+        //}
+
+        #endregion
         static void Main(string[] args)
         {
 
@@ -52,10 +71,20 @@ namespace Assignment10
             //Q4: What is a generic method? Write Swap<T> method.
             //A generic method is a method that can work with different data types. The type is specified when the method is called.
 
-            int a = 10, b = 20;
-            Console.WriteLine($"Number A before swapping is {a} and B is {b}");
-            swap<int>(ref a , ref b);
-            Console.WriteLine($"Number A after swapping is {a} and B is {b}");
+            //int a = 10, b = 20;
+            //Console.WriteLine($"Number A before swapping is {a} and B is {b}");
+            //swap<int>(ref a , ref b);
+            //Console.WriteLine($"Number A after swapping is {a} and B is {b}");
+
+            #endregion
+
+            #region Question 5
+
+            //Q5: Write a generic method FindMax<T> that finds maximum value
+
+            //int[] items = { 10, 20, 30, 40, 50, 44, 5, 0 };
+            //int maximumNumber =FindMax(items);
+            //Console.WriteLine($"The max number is {maximumNumber}");
 
             #endregion
 
