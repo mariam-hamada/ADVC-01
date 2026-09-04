@@ -95,6 +95,19 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 7
+
+            //Q7: What is the 'struct' constraint? Write an example.
+            //The struct constraint means that the generic type must be a value type, such as int, double, bool, or a custom struct.
+
+            //Console.WriteLine(new Box<int>(10).Value);
+            //Console.WriteLine(new Box<double>(5.5).Value);
+
+
+
+
+            #endregion
+
         }
     }
 }
