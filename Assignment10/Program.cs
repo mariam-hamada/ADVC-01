@@ -172,6 +172,19 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 14 
+
+            //Q14: Write a SafeList<T> that returns default when the index isinvalid.
+            //List<int> items = new List<int> { 1, 2, 3, 4, 5 };
+            //Console.WriteLine(SafeList<int>.Get(4, items));
+            //Console.WriteLine (SafeList<int>.Get(5,items));
+
+
+            #endregion
+
+
+
+
         }
     }
 }
