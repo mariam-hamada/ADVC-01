@@ -190,6 +190,14 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 16
+
+            //Q16: What is contravariance? Explain the 'in' keyword.
+            //Contravariance allows us to assign a generic type with a more general type to a generic type with a more specific type.
+            //in before T means that The generic type T is used as an input type.
+
+            #endregion
+
 
         }
     }
