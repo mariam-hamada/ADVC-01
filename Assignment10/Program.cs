@@ -152,6 +152,18 @@ namespace Assignment10
             //dogs.print();
 
             #endregion
+
+            #region Question 12 
+
+            //Q12: How do you apply multiple constraints? Write an example.
+            //You can apply more than one constraint to the same generic type by putting them together after where T :.
+            // For example, we can require T to: Inherit from a specific base class,Implement a specific interface, Have a parameterless constructor.
+
+
+            //Repository<Order> repository = new Repository<Order>();
+            //Order order = repository.Create();
+            //order.audit();
+            #endregion
         }
     }
 }
