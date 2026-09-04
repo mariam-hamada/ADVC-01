@@ -198,6 +198,22 @@ namespace Assignment10
 
             #endregion
 
+            #region Question 17
+
+            //Q17: What is the difference between covariance and contravariance?
+            //Covariance allows a generic type with a more specific type to be assigned to a generic type with a more general type. It uses the out keyword and is mainly used with producers or output types.
+            //Contravariance allows a generic type with a more general type to be assigned to a generic type with a more specific type. It uses the in keyword and is mainly used with consumers or input types.
+
+
+            #endregion
+
+            #region Question 18 
+
+            //Q18: How do static members work in generic types?
+
+
+            #endregion
+
 
         }
     }
